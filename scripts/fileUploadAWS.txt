@@ -1,2 +1,2 @@
-cd c:\code\sandbox
+cd c:\code\development
 aws s3 cp . s3://naughtydog.click/ --recursive --exclude '.git/*' --exclude 'scripts/*'
